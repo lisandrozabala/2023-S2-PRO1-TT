@@ -1,1 +1,35 @@
+.cajaPadre {
+    background-color: #173317;
+    min-height: 400px;
+    /* propiedades flexbox */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
 
+.cajaHija {
+    background-color: rgb(153, 153, 54);
+    height: 165px;
+    width: 165px;
+}
+
+/* los elementos hijos */
+.walter {
+    background-image: url('../img/walter.jpeg');
+    /* propiedades flexbox para hijos */
+   /*  order: 1; */
+   align-self: flex-end;
+}
+
+.matraz {
+    background-image: url('../img/matraz.jpeg');
+}
+
+.mascara {
+    background-image: url('../img/mascara.jpeg');
+    /* order: 2; */
+    align-self: flex-start;
+}
