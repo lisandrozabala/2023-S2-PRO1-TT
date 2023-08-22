@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+  /* propiedades del body */
+  margin: 0px;
+}
+
+.titulo {
+  background-color: blueviolet;
+  color: white;
+  margin: 0px;
+  padding: 30px 15px;
+}
+
+.contenedor {
+    background-color: aquamarine;
+    width: 120px;
+    height: 130px;
+    padding: 12px;
+    border: solid 3px rgb(82, 165, 137);
+   /*  display: none; */
+}
+
+.enlaces {
+    background-color: #ff7117;
+    padding: 2px;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+/* ---------------- CONTACT ------------- */
+
+.header {
+    background-color: aliceblue;
+    border-bottom: solid 3px black;
+    height: 150px;
+}
+
+.subtitulo {
+    text-align: center;
+    margin: 0px;
+    padding: 50px;
+    color: aquamarine;
+    font-size: 30px;
+}
+
+.footer {
+    background-color: aliceblue;
+    border-top: solid 3px black;
+    height: 150px;
+}
+
+.main {
+    min-height: 620px;
+    padding: 30px;
+}
+
+.productos{
+    background-color: aliceblue;
+    height: 300px;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.producto-item{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.producto-item h5 {
+    text-align: center;
+}

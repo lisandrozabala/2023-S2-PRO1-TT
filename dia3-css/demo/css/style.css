@@ -1,0 +1,36 @@
+/* Regla de etiqueta */
+h1 {
+    color: red;
+    text-align: center;
+}
+
+/* regla de clases */
+.parrafo {
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.712);
+}
+
+/* regla de ID */
+#listaDesordenada {
+    list-style-type: none;
+}
+
+/* regla desc */
+#listaDesordenada .primero {
+    color: red;
+}
+
+/* regla desc */
+#listaDesordenada .segundo {
+    color: hsl(133, 100%, 50%);
+}
+
+/* backgrounds ------------------------> */
+
+#bodyIndex {
+    background-image: url("../img//argentina.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
