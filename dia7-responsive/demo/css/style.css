@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+
+h4, h5 {
+    text-align: center;
+}
+
+a{
+    color: #444;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+}
+/* Header Inicio */
+
+.header {
+    background-color:  rgb(250 250 250);;
+    height: 100px;
+}
+
+.logo{
+    width: 15px;
+}
+
+.navbar{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5px 0px;
+}
+
+.lista{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    width: 80%;
+}
+
+/* Header Final */
+
+/* main Inicio */
+.main {
+   padding: 20px 100px;
+   background-color:  rgb(250 250 250);
+
+}
+
+.banner {
+    background-image: url('../img/banner.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-size: 3000px 600px;
+}
+
+.banner h1{
+    font-size: 40px;
+}
+
+.banner h3{
+    font-size: 20px;
+}
+
+.banner a{
+    font-size: 20px;
+    color: rgb(67, 67, 247);
+}
+
+.productos {
+    background-color: rgb(240, 238, 238);
+    height: 400px;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.producto-item {
+    background-color: #fefefe;
+    width: 260px;
+    height: 340px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.producto-item:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.producto-item img {
+    width: 100%;
+}
+
+
+/* main Final */
+
+
+/* responsive */
+
+/* tablets */
+@media(max-width: 768px){
+   /* debo escribir las nuevas reglas que pisaran las reglas anteriores */
+}
+
+/* telefonos */
+@media(max-width: 420px){
+   .header{
+    height: 200px;
+   }
+
+   .navbar{
+    height: 200px;
+   }
+
+   .lista{
+    flex-direction: column;
+    padding: 0px;
+    height: 200px;
+   }
+
+   .main{
+    padding: 0px;
+   }
+
+   .productos{
+    height: max-content;
+    justify-content: center;
+    margin: 20px;
+   }
+
+   .producto-item{
+    margin-bottom: 20px;
+   }
+}
+
