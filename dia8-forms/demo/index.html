@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body id="body">
+
+    <header>
+        <!-- Cabecera -->
+    </header>
+
+
+
+    <main>
+        <!-- principal -->
+
+        <form action="./busqueda.html" method="get">
+            <div class="contenedor-input">
+                <label for="miNombre">Nombre:</label>
+                <input type="text" name="nombre" id="miNombre" value="" required>
+            </div>
+
+            <div class="contenedor-input">
+                <label for="miEmail">Email:</label>
+                <input type="email" name="email" id="miEmail" required>
+            </div>
+
+            <div class="contenedor-input">
+                <label for="miPass">Clave:</label>
+                <input type="password" name="pass" id="miPass">
+            </div>
+
+            <div class="contenedor-input">
+                <label>Asistio a clases?</label>
+                <span>Si</span> <input type="radio" name="asistencia" value="si" checked>
+
+                <span>No</span> <input type="radio" name="asistencia" value="no">
+            </div>
+
+            <div class="contenedor-input">
+                <label>Hobbies?</label>
+                <input type="checkbox" name="hobbies" value="futbol">   <span>Futbol</span>
+
+                <input type="checkbox" name="hobbies"  value="beisbol"> <span>Beisbol</span>
+
+                <input type="checkbox" name="hobbies"  value="besket">  <span>Basket</span>
+            </div>
+
+            <div class="contenedor-input">
+                <textarea name="campoLargo" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="contenedor-input">
+                <select name="pais" id="paises">
+                    <option value="br">Brasil</option>
+                    <option value="Ar">Argentina</option>
+                    <option value="Ve">Venezuela</option>
+                </select>
+            </div>
+
+            <div class="contenedor-input">
+                <button type="submit">Enviar</button>
+
+                <button type="reset">Resetear</button>
+
+                <button type="button">Atras</button>
+            </div>
+
+        </form>
+
+    </main>
+
+
+
+    
+    <footer>
+        <!-- pie de pagina -->
+    </footer>
+   
+</body>
+</html>
