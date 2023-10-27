@@ -1,0 +1,22 @@
+.miArticle img{
+    width: 200px;
+}
+
+.miArticle{
+    background-color: #5c5c5c;
+    border-radius: 30px;
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
